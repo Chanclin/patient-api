@@ -22,8 +22,8 @@ public class Patient {
     private String nom;
     private String prenom;
     private LocalDate dateNaissance;
-    private String sexe; // "Homme" ou "Femme"
-    private double taille; // en cm
-    private double poids; // en kg
+    private String sexe; 
+    private double taille; 
+    private double poids; 
     private List<Contact> contacts = new ArrayList<>();
 }
