@@ -8,7 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/contacts")
+@RequestMapping("/api/patients/contacts")
 public class ContactController {
 
     private final ContactService contactService;
